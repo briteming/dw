@@ -1,0 +1,42 @@
+---
+title: 'async/await: A Modern Romance'
+description: 'How async/await saved us from callback hell and made asynchronous code beautiful again'
+---
+
+# async/await: A Modern Romance
+
+Remember callback hell? Those pyramids of doom,  
+Where `.then()` and `.catch()` filled every room,  
+Indentation growing deeper with each nested call,  
+We promised ourselves we'd escape it all.
+
+Then you arrived, `async` and `await`,  
+Two keywords that would seal our fate,  
+You made asynchronous code read top to bottom,  
+Like synchronous code, but you never fought 'em.
+
+```javascript
+async function fetchData() {
+  const user = await getUser()
+  const posts = await getPosts(user.id)
+  const comments = await getComments(posts)
+  return comments
+}
+```
+
+Look at that beauty! Sequential and clear,  
+No more callbacks nested, no more fear,  
+Error handling? Just `try` and `catch`,  
+Our code is now clean, a perfect match.
+
+The old way haunts us in legacy code,  
+Those `.then()` chains, that heavy load,  
+But in new projects, you reign supreme,  
+async/await, you're the team's dream.
+
+Some say Promises were fine on their own,  
+But you gave us syntax that feels like home,  
+So here's to you, syntactic sugar sweet,  
+Making async code a pure treat.
+
+_Note: This poem `await`s your appreciation._
